@@ -1,0 +1,7 @@
+Fibonacci_Sequence = [0, 1, 1]
+
+while Fibonacci_Sequence[-1] < 1000:
+    
+    Fibonacci_Sequence.append(Fibonacci_Sequence[-1] + Fibonacci_Sequence[-2])
+    
+    print(Fibonacci_Sequence)
