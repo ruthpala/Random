@@ -1,0 +1,13 @@
+number = int(input("Enter a number: "))
+
+factors = []
+prime_factors = []
+divisor = 2
+
+while number > 1:
+        if number % divisor == 0:
+                prime_factors.append(divisor)
+                number = number / divisor 
+        else:
+                divisor = divisor + 1
+print(prime_factors)
